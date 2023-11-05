@@ -27,8 +27,8 @@ export function Model(props) {
         <group name="Armature">
           <primitive object={nodes.Hips} />
           <skinnedMesh name="Wolf3D_Body" geometry={nodes.Wolf3D_Body.geometry} material={materials['Wolf3D_Body.011']} skeleton={nodes.Wolf3D_Body.skeleton} />
-          <skinnedMesh name="Wolf3D_Glasses" geometry={nodes.Wolf3D_Glasses.geometry} material={materials['Wolf3D_Glasses.006']} skeleton={nodes.Wolf3D_Glasses.skeleton} />
-          <skinnedMesh name="Wolf3D_Headwear" geometry={nodes.Wolf3D_Headwear.geometry} material={materials['Wolf3D_Headwear.011']} skeleton={nodes.Wolf3D_Headwear.skeleton} />
+          {/* <skinnedMesh name="Wolf3D_Glasses" geometry={nodes.Wolf3D_Glasses.geometry} material={materials['Wolf3D_Glasses.006']} skeleton={nodes.Wolf3D_Glasses.skeleton} /> */}
+          {/* <skinnedMesh name="Wolf3D_Headwear" geometry={nodes.Wolf3D_Headwear.geometry} material={materials['Wolf3D_Headwear.011']} skeleton={nodes.Wolf3D_Headwear.skeleton} /> */}
           <skinnedMesh name="Wolf3D_Outfit_Bottom" geometry={nodes.Wolf3D_Outfit_Bottom.geometry} material={materials['Wolf3D_Outfit_Bottom.011']} skeleton={nodes.Wolf3D_Outfit_Bottom.skeleton} />
           <skinnedMesh name="Wolf3D_Outfit_Footwear" geometry={nodes.Wolf3D_Outfit_Footwear.geometry} material={materials['Wolf3D_Outfit_Footwear.011']} skeleton={nodes.Wolf3D_Outfit_Footwear.skeleton} />
           <skinnedMesh name="Wolf3D_Outfit_Top" geometry={nodes.Wolf3D_Outfit_Top.geometry} material={materials['Wolf3D_Outfit_Top.011']} skeleton={nodes.Wolf3D_Outfit_Top.skeleton} />
